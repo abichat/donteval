@@ -13,6 +13,7 @@ find_vignettes <- function(check_root = TRUE) {
     warning("There is no vignettes in your package.")
   }
 
-  list.files(path = "vignettes/", pattern = ".Rmd",
-             recursive = FALSE, include.dirs = FALSE)
+  list.files(path = "vignettes", pattern = ".Rmd",
+             recursive = FALSE, include.dirs = FALSE,
+             full.names = TRUE)
 }
