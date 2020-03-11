@@ -1,0 +1,14 @@
+Package: donteval
+Title: RStudio Addin to Change the 'eval' Argument in Vignettes
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Antoine",
+           family = "Bichat",
+           role = c("aut", "cre"),
+           email = "a.bichat@yahoo.fr",
+           comment = c(ORCID = "0000-0001-6599-7081"))
+Description: Addin to change all the 'eval' argument to avoid
+    building long vignettes during checks.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
