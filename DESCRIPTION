@@ -10,6 +10,11 @@ Authors@R:
 Description: Addin to change all the 'eval' argument to avoid
     building long vignettes during checks.
 License: GPL-3
+URL: https://github.com/abichat/donteval
+BugReports: https://github.com/abichat/donteval/issues
+Suggests: 
+    spelling
 Encoding: UTF-8
+Language: en-US
 LazyData: true
 RoxygenNote: 7.0.2.9000

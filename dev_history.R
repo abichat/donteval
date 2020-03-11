@@ -10,6 +10,10 @@ library(testthat)
 
 # use_r("vignettes")
 
+# use_github_links()
+
+# use_spell_check()
+
 ####
 
 document()
@@ -18,3 +22,6 @@ attachment::att_to_description()
 use_tidy_description()
 
 check()
+
+spell_check()
+# spelling::update_wordlist()

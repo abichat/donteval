@@ -10,7 +10,7 @@ find_vignettes(check_root = TRUE)
 \item{check_root}{logical}
 }
 \value{
-The vecor of paths to vignettes in the package.
+The vector of paths to vignettes in the package.
 }
 \description{
 Find vignettes

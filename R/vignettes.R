@@ -2,7 +2,7 @@
 #'
 #' @param check_root logical
 #'
-#' @return The vecor of paths to vignettes in the package.
+#' @return The vector of paths to vignettes in the package.
 find_vignettes <- function(check_root = TRUE) {
 
   if (check_root & !file.exists("DESCRIPTION")) {
