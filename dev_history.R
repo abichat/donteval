@@ -8,9 +8,13 @@ library(testthat)
 
 # use_git()
 
+# use_r("vignettes")
 
 ####
 
+document()
+load_all()
+attachment::att_to_description()
 use_tidy_description()
 
 check()
