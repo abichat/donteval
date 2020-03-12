@@ -1,6 +1,5 @@
 library(devtools)
 library(usethis)
-library(testthat)
 
 # use_build_ignore("dev_history.R")
 
@@ -14,6 +13,10 @@ library(testthat)
 
 # use_spell_check()
 
+# use_r("find_lines")
+
+# use_r("change_vignettes")
+
 ####
 
 document()
@@ -22,6 +25,7 @@ attachment::att_to_description()
 use_tidy_description()
 
 check()
+goodpractice::gp()
 
 spell_check()
 # spelling::update_wordlist()
