@@ -1,6 +1,6 @@
 Package: donteval
 Title: RStudio Addin to Change the 'eval' Argument in Vignettes
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Antoine",
            family = "Bichat",
