@@ -22,3 +22,10 @@ You can install **donteval** from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("abichat/donteval")
 ```
+
+## Usage
+
+**donteval** may be particularly useful when you want to `check()` your
+package without running long vignettes.
+
+![usage](inst/demo.gif)
