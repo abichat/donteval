@@ -20,6 +20,13 @@ library(usethis)
 # use_addin("change_TtoF")
 # use_addin("change_FtoT")
 
+# use_readme_rmd()
+
+# badgecreatr::badge_license()
+# badgecreatr::badge_lifecycle()
+# badgecreatr::badge_packageversion()
+# badgecreatr::badge_last_change()
+
 ####
 
 document()
