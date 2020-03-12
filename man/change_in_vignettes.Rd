@@ -2,9 +2,15 @@
 % Please edit documentation in R/change_vignettes.R
 \name{change_in_vignettes}
 \alias{change_in_vignettes}
+\alias{change_TtoF}
+\alias{change_FtoT}
 \title{Change the eval argument in all vignettes}
 \usage{
 change_in_vignettes(TtoF = TRUE)
+
+change_TtoF()
+
+change_FtoT()
 }
 \arguments{
 \item{TtoF}{Logical. Change from \code{TRUE} to \code{FALSE} (the default)

@@ -1,0 +1,10 @@
+Name: Don't evaluate vignettes
+Description: Change eval argument to FALSE.
+Binding: change_TtoF
+Interactive: false
+
+Name: Evaluate vignettes
+Description: Change eval argument to TRUE.
+Binding: change_FtoT
+Interactive: false
+

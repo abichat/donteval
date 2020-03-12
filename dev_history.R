@@ -17,6 +17,9 @@ library(usethis)
 
 # use_r("change_vignettes")
 
+# use_addin("change_TtoF")
+# use_addin("change_FtoT")
+
 ####
 
 document()

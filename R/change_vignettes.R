@@ -12,6 +12,16 @@ change_in_vignettes <- function(TtoF = TRUE){
   }
 }
 
+#' @rdname change_in_vignettes
+change_TtoF <- function(){
+  change_in_vignettes(TtoF = TRUE)
+}
+
+#' @rdname change_in_vignettes
+change_FtoT <- function(){
+  change_in_vignettes(TtoF = FALSE)
+}
+
 #' Change the eval argument in a vignette
 #'
 #' @inheritParams change_in_vignettes
